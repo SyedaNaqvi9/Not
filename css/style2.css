@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu');
+body, html{
+    height:100%;
+    margin:0;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 180%;
+    color: #666;
+    text-align: center;
+}
+.parallax1{
+    background: url(../img/header.jpg);
+    min-height:100%;
+    
+}
+.parallax2{
+    background: url(../img/pops.jpg);
+    min-height:60%;
+    
+}
+.parallax3{
+    background: url(../img/bubble.png);
+    min-height:40%;
+    
+}
+.parallax4{
+    background: url(../img/header.png);
+    min-height:100%;
+    
+}
+.parallax1, .parallax2, .parallax3, .parallax4{
+    position: relative;
+    opacity: .75;
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    
+    
+}
